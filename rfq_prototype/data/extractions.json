@@ -1,0 +1,176 @@
+[
+  {
+    "vendor_name": "Brightwave Creative Co.",
+    "overall_summary": "Brightwave is a creative-led agency proposing an integrated 'Mornings Made of Stars' platform covering strategy, creative, TVC development and production, organic social, and program management as one bundled engagement. It declines paid media planning/buying and gives conflicting total figures with no tax clarity or compliance detail.",
+    "line_item_coverage": [
+      {"line_item": "Strategy and creative development", "covered": "yes",
+       "scope_notes": {"value": "Full platform, positioning, key visual and messaging matrix; described as their core strength.", "status": "present", "evidence": "the full platform, positioning, key visual and messaging matrix. This is our heartland"},
+       "price": {"value": "Bundled into all-in fee; no separate price", "status": "unclear", "evidence": "we've chosen to present this as an integrated partnership rather than nickel-and-diming every line"}},
+      {"line_item": "TVC development", "covered": "yes",
+       "scope_notes": {"value": "Three script routes, storyboards, director's treatment.", "status": "present", "evidence": "three script routes, storyboards, and a director's treatment"},
+       "price": {"value": "Bundled, not itemised", "status": "missing", "evidence": null}},
+      {"line_item": "TVC production", "covered": "yes",
+       "scope_notes": {"value": "End-to-end production of hero 30s and two 10s cutdowns; child artists cast with care.", "status": "present", "evidence": "we will produce the hero 30s and the two 10s cutdowns end to end"},
+       "price": {"value": "Bundled, not itemised", "status": "missing", "evidence": null}},
+      {"line_item": "Social organic content", "covered": "yes",
+       "scope_notes": {"value": "Always-on organic content world for the first three months.", "status": "present", "evidence": "a beautiful always-on content world for the first three months"},
+       "price": {"value": "Bundled, not itemised", "status": "missing", "evidence": null}},
+      {"line_item": "Social paid media planning", "covered": "no",
+       "scope_notes": {"value": "Declined; suggests a specialist partner.", "status": "present", "evidence": "paid media planning and buying is better handled by a specialist"},
+       "price": {"value": null, "status": "missing", "evidence": null}},
+      {"line_item": "Social paid media buying and optimization", "covered": "no",
+       "scope_notes": {"value": "Declined; offers light coordination only.", "status": "present", "evidence": "we can fold light coordination into our program management"},
+       "price": {"value": null, "status": "missing", "evidence": null}},
+      {"line_item": "Kids advertising and claims compliance review", "covered": "no",
+       "scope_notes": {"value": "Not addressed anywhere in the proposal.", "status": "missing", "evidence": null},
+       "price": {"value": null, "status": "missing", "evidence": null}},
+      {"line_item": "Launch program management", "covered": "yes",
+       "scope_notes": {"value": "Dedicated producer to hold the program together.", "status": "present", "evidence": "we'll hold the whole thing together with a dedicated producer"},
+       "price": {"value": "Bundled, not itemised", "status": "missing", "evidence": null}}
+    ],
+    "commercials": {
+      "total_or_bundled_price": {"value": "Conflicting: ₹2.4 Cr (= ₹240L) stated as all-in, but closing says closer to ₹2.6 Cr", "status": "conflicting", "evidence": "Our all-in fee for the above is ₹2.4 Cr"},
+      "currency": {"value": "INR", "status": "present", "evidence": "₹2.4 Cr"},
+      "tax_treatment": {"value": null, "status": "missing", "evidence": null},
+      "payment_terms": {"value": null, "status": "missing", "evidence": null},
+      "pricing_model": {"value": "Single bundled partnership fee, no per-item breakdown", "status": "present", "evidence": "an integrated partnership rather than nickel-and-diming every line"}
+    },
+    "timeline": {"value": "Roughly one quarter from appointment to air, give or take", "status": "unclear", "evidence": "roughly one quarter from appointment to air, give or take"},
+    "compliance": {
+      "kids_advertising_claims": {"value": null, "status": "missing", "evidence": null},
+      "general_compliance": {"value": null, "status": "missing", "evidence": null}
+    },
+    "assumptions": [
+      "Nutriva provides brand guidelines and product samples",
+      "Approvals come through a single empowered client lead",
+      "Two rounds of revisions per deliverable"
+    ],
+    "exclusions": [
+      "Paid media planning and buying excluded from scope"
+    ],
+    "flags": [
+      {"type": "conflicting", "field": "total_price", "detail": "Three figures appear: ₹2.4 Cr / ₹240L (same value) stated as all-in, then ~₹2.6 Cr in the closing. The total is internally inconsistent.", "evidence": "our honest all-in number lands closer to ₹2.6 Cr"},
+      {"type": "missing", "field": "tax_treatment", "detail": "No statement on whether GST is included or excluded. RFQ explicitly requires this.", "evidence": null},
+      {"type": "missing", "field": "per_item_pricing", "detail": "RFQ requires a per-line-item breakdown; vendor provides only a lump-sum bundle. May be non-compliant.", "evidence": null},
+      {"type": "missing", "field": "kids_compliance", "detail": "No response to the mandatory kids advertising / ASCI claims compliance requirement.", "evidence": null},
+      {"type": "unclear", "field": "timeline", "detail": "Timeline is vague ('roughly one quarter, give or take') with no milestones.", "evidence": "roughly one quarter from appointment to air"},
+      {"type": "missing", "field": "payment_terms", "detail": "No payment terms stated.", "evidence": null}
+    ]
+  },
+  {
+    "vendor_name": "MediaMetric Partners",
+    "overall_summary": "MediaMetric is a performance-media agency that priced most line items in a clean rate card but omitted TVC production entirely and priced media buying as a percentage of an unspecified media budget. It gives a strong, specific ASCI compliance answer but its currency is internally inconsistent (USD rate card vs INR summary).",
+    "line_item_coverage": [
+      {"line_item": "Strategy and creative development", "covered": "yes",
+       "scope_notes": {"value": "Comms strategy + creative platform.", "status": "present", "evidence": "Comms strategy + creative platform"},
+       "price": {"value": "USD 28,000", "status": "present", "evidence": "Strategy & creative development | Comms strategy + creative platform | USD 28,000"}},
+      {"line_item": "TVC development", "covered": "yes",
+       "scope_notes": {"value": "Scripts, storyboards, treatment.", "status": "present", "evidence": "TVC development | Scripts, storyboards, treatment | USD 18,000"},
+       "price": {"value": "USD 18,000", "status": "present", "evidence": "USD 18,000"}},
+      {"line_item": "TVC production", "covered": "no",
+       "scope_notes": {"value": "Explicitly not offered; vendor is not a production house.", "status": "present", "evidence": "We are not a production house. We have deliberately not quoted TVC production"},
+       "price": {"value": null, "status": "missing", "evidence": null}},
+      {"line_item": "Social organic content", "covered": "yes",
+       "scope_notes": {"value": "Calendar + monthly asset packs + community management.", "status": "present", "evidence": "Calendar + monthly asset packs + community mgmt"},
+       "price": {"value": "USD 9,000 / month", "status": "present", "evidence": "USD 9,000 / month"}},
+      {"line_item": "Social paid media planning", "covered": "yes",
+       "scope_notes": {"value": "Full media plan, targeting, forecast.", "status": "present", "evidence": "Full media plan, targeting, forecast | USD 12,000"},
+       "price": {"value": "USD 12,000", "status": "present", "evidence": "USD 12,000"}},
+      {"line_item": "Social paid media buying and optimization", "covered": "yes",
+       "scope_notes": {"value": "Execution + weekly optimisation + reporting.", "status": "present", "evidence": "Execution + weekly optimisation + reporting"},
+       "price": {"value": "12% of media spend — absolute cost unknowable without media budget", "status": "unclear", "evidence": "media management is charged at 12% of working media. The client sets the media budget separately"}},
+      {"line_item": "Kids advertising and claims compliance review", "covered": "yes",
+       "scope_notes": {"value": "Independent ASCI review with per-asset log and final sign-off memo, owned by in-house standards lead.", "status": "present", "evidence": "reviewed against the ASCI Guidelines for Advertising to Children before release"},
+       "price": {"value": "USD 6,500", "status": "present", "evidence": "USD 6,500"}},
+      {"line_item": "Launch program management", "covered": "yes",
+       "scope_notes": {"value": "PMO across workstreams.", "status": "present", "evidence": "Launch program management | PMO across workstreams | USD 7,500 / month"},
+       "price": {"value": "USD 7,500 / month", "status": "present", "evidence": "USD 7,500 / month"}}
+    ],
+    "commercials": {
+      "total_or_bundled_price": {"value": "Conflicting: rate card in USD, but summary states ~₹62,00,000 for fixed components", "status": "conflicting", "evidence": "Indicative total of fixed-fee components is approximately ₹62,00,000"},
+      "currency": {"value": "Inconsistent: USD in rate card, INR in summary", "status": "conflicting", "evidence": "USD 28,000"},
+      "tax_treatment": {"value": "GST extra at applicable rates", "status": "present", "evidence": "GST extra at applicable rates"},
+      "payment_terms": {"value": null, "status": "missing", "evidence": null},
+      "pricing_model": {"value": "Per-line-item rate card + percentage-of-media for buying", "status": "present", "evidence": "Rate card below"}
+    },
+    "timeline": {"value": null, "status": "missing", "evidence": null},
+    "compliance": {
+      "kids_advertising_claims": {"value": "Per-asset ASCI review before release, substantiation evidence on file, per-asset compliance log + final sign-off memo, in-house standards lead.", "status": "present", "evidence": "Every asset directed at children is reviewed against the ASCI Guidelines for Advertising to Children before release"},
+      "general_compliance": {"value": "Nutrition claims checked for substantiation with documented evidence.", "status": "present", "evidence": "all nutrition claims are checked for substantiation with documented evidence held on file"}
+    },
+    "assumptions": [
+      "Client provides all brand assets, product information, and creative approvals within 48 hours of request",
+      "Delays beyond 48h may affect performance commitments"
+    ],
+    "exclusions": [
+      "TVC production (explicitly not quoted)",
+      "Media spend itself (only management fee quoted)"
+    ],
+    "flags": [
+      {"type": "missing", "field": "tvc_production", "detail": "TVC production — a core RFQ line item — is entirely absent. Vendor cannot deliver the full launch alone.", "evidence": "We have deliberately not quoted TVC production"},
+      {"type": "conflicting", "field": "currency", "detail": "Rate card is in USD but the commercials summary and total are in INR. Buyer cannot reconcile the total without an exchange rate and re-statement.", "evidence": "USD 28,000 ... approximately ₹62,00,000"},
+      {"type": "unclear", "field": "media_buying_cost", "detail": "Media buying priced at 12% of media spend, but the media budget is not stated, so the absolute cost is unknowable.", "evidence": "12% of media spend"},
+      {"type": "risk", "field": "assumption_48h", "detail": "Performance is conditioned on 48h client approvals — a delivery risk if the client cannot meet that SLA.", "evidence": "creative approvals within 48 hours of request"},
+      {"type": "missing", "field": "timeline", "detail": "No project timeline or milestones provided. RFQ questionnaire explicitly asks for this.", "evidence": null},
+      {"type": "missing", "field": "payment_terms", "detail": "No payment terms stated.", "evidence": null}
+    ]
+  },
+  {
+    "vendor_name": "Launchpad Integrated",
+    "overall_summary": "Launchpad is a full-service generalist covering all eight line items but several only at a vague, one-line level. It withholds a firm total ('final quote upon scope confirmation') while giving partial figures, makes an unsupported reach guarantee, and clearly states payment terms, timeline, and exclusions.",
+    "line_item_coverage": [
+      {"line_item": "Strategy and creative development", "covered": "yes",
+       "scope_notes": {"value": "Launch platform, big idea, key visual, messaging.", "status": "present", "evidence": "Big idea, key visual, messaging, all of it"},
+       "price": {"value": "Around ₹35 lakh", "status": "unclear", "evidence": "strategy + creative is around ₹35 lakh"}},
+      {"line_item": "TVC development", "covered": "yes",
+       "scope_notes": {"value": "Scripts through to finished films (combined with production).", "status": "present", "evidence": "scripts through to finished films, hero + cutdowns"},
+       "price": {"value": "Combined with production: ₹90 lakh–₹1.1 Cr range", "status": "unclear", "evidence": "the TVC piece (dev + production) lands in the ₹90 lakh–₹1.1 Cr range"}},
+      {"line_item": "TVC production", "covered": "yes",
+       "scope_notes": {"value": "Finished films via production network; merged with development.", "status": "present", "evidence": "We've got an amazing production network"},
+       "price": {"value": "Combined with development; range only, depends on shoot scale", "status": "unclear", "evidence": "depending on shoot scale"}},
+      {"line_item": "Social organic content", "covered": "partial",
+       "scope_notes": {"value": "Vague: 'we'll handle social, don't worry' — calendars, assets, community named but not detailed.", "status": "unclear", "evidence": "we'll handle social, don't worry"},
+       "price": {"value": "About ₹6 lakh/month", "status": "unclear", "evidence": "social organic runs about ₹6 lakh/month"}},
+      {"line_item": "Social paid media planning", "covered": "yes",
+       "scope_notes": {"value": "Will plan paid media.", "status": "present", "evidence": "we'll plan it and run it"},
+       "price": {"value": "₹8 lakh", "status": "present", "evidence": "Media planning is ₹8 lakh"}},
+      {"line_item": "Social paid media buying and optimization", "covered": "partial",
+       "scope_notes": {"value": "Will run paid media but no detail on optimisation/reporting cadence or fee basis.", "status": "unclear", "evidence": "we'll plan it and run it"},
+       "price": {"value": null, "status": "missing", "evidence": null}},
+      {"line_item": "Kids advertising and claims compliance review", "covered": "partial",
+       "scope_notes": {"value": "Vague assurance only; no process, no ASCI reference, no sign-off mechanism.", "status": "unclear", "evidence": "we'll make sure everything's above board for kids advertising"},
+       "price": {"value": null, "status": "missing", "evidence": null}},
+      {"line_item": "Launch program management", "covered": "yes",
+       "scope_notes": {"value": "One PM across the program.", "status": "present", "evidence": "one PM to rule them all"},
+       "price": {"value": "Included in overall fee", "status": "present", "evidence": "Program management is included in our overall fee"}}
+    ],
+    "commercials": {
+      "total_or_bundled_price": {"value": "No firm total — 'final quote upon scope confirmation'; only partial figures given", "status": "unclear", "evidence": "we'll provide a final quote upon scope confirmation"},
+      "currency": {"value": "INR", "status": "present", "evidence": "around ₹35 lakh"},
+      "tax_treatment": {"value": null, "status": "missing", "evidence": null},
+      "payment_terms": {"value": "50/30/20 — 50% on award, 30% mid-point, 20% on delivery", "status": "present", "evidence": "we work on 50/30/20 — 50% on award, 30% at mid-point, 20% on delivery"},
+      "pricing_model": {"value": "Partial per-item indicative figures; firm quote deferred", "status": "unclear", "evidence": "final quote upon scope confirmation"}
+    },
+    "timeline": {"value": "Detailed week-by-week plan, Week 0 kickoff to Week 12 optimisation review", "status": "present", "evidence": "Week 0 — Award & kickoff ... Week 12 — First optimisation & performance review"},
+    "compliance": {
+      "kids_advertising_claims": {"value": "Vague assurance only; no ASCI reference or substantiation process.", "status": "unclear", "evidence": "we'll make sure everything's above board for kids advertising"},
+      "general_compliance": {"value": null, "status": "missing", "evidence": null}
+    },
+    "assumptions": [
+      "Final scope to be confirmed before firm quote"
+    ],
+    "exclusions": [
+      "Media spend",
+      "Third-party licensing (music, stock, fonts)",
+      "Talent / usage fees (billed at cost)"
+    ],
+    "flags": [
+      {"type": "unsupported_claim", "field": "organic_reach_guarantee", "detail": "Guarantees '10M+ organic reach' with no methodology, baseline, or basis. Unsubstantiated performance promise.", "evidence": "We guarantee 10M+ organic reach in the first three months"},
+      {"type": "missing", "field": "firm_total_price", "detail": "No committed total; firm quote deferred to 'scope confirmation'. Buyer cannot evaluate true cost.", "evidence": "we'll provide a final quote upon scope confirmation"},
+      {"type": "unclear", "field": "scope_depth", "detail": "Several line items covered only at a one-line, hand-wavy level ('we'll handle social, don't worry').", "evidence": "we'll handle social, don't worry"},
+      {"type": "missing", "field": "tax_treatment", "detail": "No statement on GST inclusion/exclusion.", "evidence": null},
+      {"type": "unclear", "field": "kids_compliance", "detail": "Compliance addressed only as a vague assurance; no ASCI process or sign-off, despite being a weighted RFQ requirement.", "evidence": "we'll make sure everything's above board"},
+      {"type": "risk", "field": "merged_tvc_pricing", "detail": "TVC dev and production merged into a single wide range (₹90L–₹1.1Cr), making true production cost hard to assess.", "evidence": "the TVC piece (dev + production) lands in the ₹90 lakh–₹1.1 Cr range"}
+    ]
+  }
+]

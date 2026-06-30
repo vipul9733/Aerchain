@@ -1,0 +1,52 @@
+{
+  "design_principles": [
+    "Surface uncertainty, never hide it — missing, unclear, and conflicting data must be visible at a glance, not buried.",
+    "Every AI assertion is traceable to a vendor evidence snippet; nothing is taken on faith.",
+    "Comparison supports the buyer's decision; it never declares a winner or implies false precision.",
+    "Vendors that aren't yet comparable are visibly separated from those that are, so the buyer doesn't compare apples to gaps.",
+    "Action over analysis: every gap the tool finds should lead to a concrete next step (a clarification to send)."
+  ],
+  "what_buyer_sees_first": "A status banner: how many vendors responded, how many are 'comparable now' vs 'need clarification', and the single biggest cross-vendor risk — before any prices.",
+  "screens": [
+    {
+      "name": "RFQ Overview",
+      "purpose": "Ground the buyer in exactly what was asked, so vendor gaps are judged against a clear baseline.",
+      "key_sections": ["Event summary & timelines", "8 line items with scope", "Commercial expectations", "Vendor questionnaire", "Compliance requirements", "Evaluation weights"],
+      "ux_copy": {"heading": "What this procurement event is asking for", "empty_state": "No RFQ generated yet. Generate one to begin.", "primary_action": "Generate RFQ"},
+      "how_risk_is_surfaced": "Compliance and per-item-pricing expectations are highlighted as 'will be checked' so the buyer knows which vendor gaps matter most."
+    },
+    {
+      "name": "Vendor Upload",
+      "purpose": "Bring vendor responses into the system by paste or file, or load the generated sample set.",
+      "key_sections": ["Paste box per vendor", "File upload (txt/md/pdf)", "Load sample vendors", "Run extraction"],
+      "ux_copy": {"heading": "Add vendor responses", "empty_state": "No vendor responses yet. Paste, upload, or load the sample set.", "primary_action": "Run extraction"},
+      "how_risk_is_surfaced": "Inputs are shown raw and unedited so the buyer can confirm the AI is reading the real submission, not a cleaned-up version."
+    },
+    {
+      "name": "Extraction Review",
+      "purpose": "Show what the AI pulled from each vendor, with evidence, and flag every gap and conflict.",
+      "key_sections": ["Per-vendor summary", "Line-item coverage grid", "Commercials with status chips", "Flags panel (missing/unclear/conflicting/risk)", "Evidence snippets"],
+      "ux_copy": {"heading": "What each vendor actually said", "empty_state": "Run extraction to see structured results.", "primary_action": "Compare vendors"},
+      "how_risk_is_surfaced": "Colour-coded status chips (present / missing / unclear / conflicting) on every field, plus a dedicated flags panel; values without evidence can never show as 'present'."
+    },
+    {
+      "name": "Vendor Comparison",
+      "purpose": "Help the buyer see differences and decide what to do next — without false precision.",
+      "key_sections": ["Comparability banner", "Dimension matrix", "Key differences", "Buyer attention points", "Clarification questions"],
+      "ux_copy": {"heading": "How the vendors compare", "empty_state": "Run comparison once extraction is complete.", "primary_action": "Draft clarifications"},
+      "how_risk_is_surfaced": "Dimensions that can't be fairly compared are labelled 'Not comparable yet' with the reason, instead of being scored; confidence is shown per cell."
+    },
+    {
+      "name": "Prompt Trace",
+      "purpose": "Make the AI workflow auditable — show input, prompt, raw model output, and final structured output.",
+      "key_sections": ["Agent selector", "System prompt", "User prompt", "Raw output", "Final structured output"],
+      "ux_copy": {"heading": "How the AI reached this", "empty_state": "Run any agent to capture a trace.", "primary_action": "Export trace"},
+      "how_risk_is_surfaced": "Full transparency: the buyer (or an auditor) can see the exact prompt and the exact model output behind any displayed result."
+    }
+  ],
+  "comparison_view_design": {
+    "layout": "Vendors as columns, dimensions as rows. A banner above the matrix states overall comparability before any cell is read.",
+    "how_non_comparable_vendors_are_shown": "A grey 'Not yet comparable' badge on the vendor and on any dimension where data gaps prevent a fair call, with the blocking reason inline.",
+    "how_evidence_is_exposed": "Every assessment cell links back to the extraction evidence snippet that supports it; cells with low confidence are visibly marked."
+  }
+}

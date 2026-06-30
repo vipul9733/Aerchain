@@ -1,0 +1,94 @@
+{
+  "comparability_status": [
+    {"vendor": "Brightwave Creative Co.", "status": "not_yet_comparable", "reason": "No per-item pricing, conflicting total (₹2.4 Cr vs ~₹2.6 Cr), no tax treatment, and zero kids-advertising compliance response. Too many commercial and compliance gaps to compare fairly on price or compliance."},
+    {"vendor": "MediaMetric Partners", "status": "not_yet_comparable", "reason": "Strongest on pricing structure and compliance, but cannot deliver TVC production at all and mixes USD and INR so the total is unreconciled. Comparable on media and compliance dimensions, not on full-scope cost."},
+    {"vendor": "Launchpad Integrated", "status": "not_yet_comparable", "reason": "Covers all items and states payment terms and timeline clearly, but withholds a firm total and is vague on compliance and several scopes. Comparable on timeline and coverage breadth, not on firm cost or compliance rigour."}
+  ],
+  "dimension_matrix": [
+    {
+      "dimension": "Scope coverage",
+      "per_vendor": [
+        {"vendor": "Brightwave Creative Co.", "assessment": "Covers 6/8 items; declines both paid media items.", "confidence": "high", "basis": "line_item_coverage shows paid media planning and buying as 'no'."},
+        {"vendor": "MediaMetric Partners", "assessment": "Covers 7/8; explicitly cannot do TVC production.", "confidence": "high", "basis": "TVC production marked 'no' with explicit evidence."},
+        {"vendor": "Launchpad Integrated", "assessment": "Covers 8/8 but several only partially/vaguely.", "confidence": "medium", "basis": "social, paid buying, and compliance marked 'partial' with unclear scope notes."}
+      ],
+      "comparable": true,
+      "note_if_not_comparable": null
+    },
+    {
+      "dimension": "Pricing clarity",
+      "per_vendor": [
+        {"vendor": "Brightwave Creative Co.", "assessment": "Lump-sum only, no breakdown, conflicting total.", "confidence": "high", "basis": "total flagged 'conflicting'; per-item prices 'missing'."},
+        {"vendor": "MediaMetric Partners", "assessment": "Clean per-item rate card, but currency conflict and % media obscures absolute cost.", "confidence": "medium", "basis": "prices 'present' but currency 'conflicting' and media buying 'unclear'."},
+        {"vendor": "Launchpad Integrated", "assessment": "Only indicative partial figures; no firm total.", "confidence": "high", "basis": "total 'unclear' — firm quote deferred."}
+      ],
+      "comparable": false,
+      "note_if_not_comparable": "No two vendors present a firm, like-for-like total in a single currency. Direct price comparison is not yet possible without clarifications."
+    },
+    {
+      "dimension": "Commercial completeness",
+      "per_vendor": [
+        {"vendor": "Brightwave Creative Co.", "assessment": "Weakest: no tax, no payment terms, no per-item pricing.", "confidence": "high", "basis": "tax_treatment and payment_terms 'missing'."},
+        {"vendor": "MediaMetric Partners", "assessment": "Tax stated (GST extra); payment terms missing.", "confidence": "high", "basis": "tax_treatment 'present'; payment_terms 'missing'."},
+        {"vendor": "Launchpad Integrated", "assessment": "Payment terms and exclusions clear; tax missing.", "confidence": "high", "basis": "payment_terms 'present'; tax_treatment 'missing'."}
+      ],
+      "comparable": true,
+      "note_if_not_comparable": null
+    },
+    {
+      "dimension": "Timeline clarity",
+      "per_vendor": [
+        {"vendor": "Brightwave Creative Co.", "assessment": "Vague — 'roughly one quarter, give or take'.", "confidence": "high", "basis": "timeline status 'unclear'."},
+        {"vendor": "MediaMetric Partners", "assessment": "No timeline provided.", "confidence": "high", "basis": "timeline status 'missing'."},
+        {"vendor": "Launchpad Integrated", "assessment": "Detailed week-by-week plan to Week 12.", "confidence": "high", "basis": "timeline status 'present' with milestone evidence."}
+      ],
+      "comparable": true,
+      "note_if_not_comparable": null
+    },
+    {
+      "dimension": "Compliance quality",
+      "per_vendor": [
+        {"vendor": "Brightwave Creative Co.", "assessment": "No compliance response at all — material gap.", "confidence": "high", "basis": "kids_advertising_claims 'missing'."},
+        {"vendor": "MediaMetric Partners", "assessment": "Strongest — specific ASCI process, per-asset log, sign-off, named owner.", "confidence": "high", "basis": "compliance fields 'present' with detailed evidence."},
+        {"vendor": "Launchpad Integrated", "assessment": "Vague assurance only; no ASCI process.", "confidence": "high", "basis": "kids_advertising_claims 'unclear'."}
+      ],
+      "comparable": true,
+      "note_if_not_comparable": null
+    },
+    {
+      "dimension": "Risk level",
+      "per_vendor": [
+        {"vendor": "Brightwave Creative Co.", "assessment": "High — commercial opacity + compliance silence on a kids product.", "confidence": "high", "basis": "conflicting total + missing compliance flags."},
+        {"vendor": "MediaMetric Partners", "assessment": "Medium — delivery gap (no production) + 48h approval dependency.", "confidence": "high", "basis": "missing TVC production + 48h assumption risk flag."},
+        {"vendor": "Launchpad Integrated", "assessment": "Medium-high — unsupported reach guarantee + no firm price.", "confidence": "high", "basis": "unsupported_claim flag + 'unclear' total."}
+      ],
+      "comparable": true,
+      "note_if_not_comparable": null
+    }
+  ],
+  "key_differences": [
+    "Only MediaMetric gives a real per-item rate card; Brightwave is lump-sum and Launchpad defers its quote — so price is the least comparable dimension today.",
+    "Compliance splits sharply: MediaMetric is specific and ASCI-anchored, Launchpad is vague, and Brightwave is silent — a critical gap for a kids' product.",
+    "Delivery completeness differs: Launchpad covers all 8 items, Brightwave drops paid media, and MediaMetric cannot do TVC production at all.",
+    "Timeline confidence is inverted vs price clarity: Launchpad has the best timeline but the worst price commitment."
+  ],
+  "missing_info_blocking_comparison": [
+    {"vendor": "Brightwave Creative Co.", "missing": "Per-item pricing, a single reconciled total, tax treatment, and any compliance response.", "why_it_matters": "Without these, neither cost nor compliance can be scored against the RFQ's weighted criteria."},
+    {"vendor": "MediaMetric Partners", "missing": "A single-currency total and a TVC production solution/partner.", "why_it_matters": "Buyer cannot compute true cost or rely on MediaMetric for full launch delivery."},
+    {"vendor": "Launchpad Integrated", "missing": "A firm total and a concrete compliance process.", "why_it_matters": "Indicative ranges and vague compliance can't be evaluated against weighted criteria."}
+  ],
+  "buyer_attention": [
+    "Do not rank on price yet — no two vendors are quoting like-for-like in the same currency or basis.",
+    "Compliance is a weighted, mandatory dimension for a kids' product: Brightwave's silence and Launchpad's vagueness are higher-priority risks than headline price.",
+    "MediaMetric's missing TVC production means it can only win as part of a consortium — factor in a production partner's cost before comparing its total.",
+    "Treat Launchpad's '10M+ organic reach' guarantee with caution; it is unsupported and may not survive due diligence."
+  ],
+  "clarification_questions": [
+    {"vendor": "Brightwave Creative Co.", "question": "Please provide a per-line-item price breakdown, confirm a single all-in total (₹2.4 Cr vs ₹2.6 Cr), and state whether GST is included."},
+    {"vendor": "Brightwave Creative Co.", "question": "How will you handle ASCI kids-advertising and FSSAI claims compliance, including documented sign-off?"},
+    {"vendor": "MediaMetric Partners", "question": "Please restate the full quote in a single currency (INR) and confirm how TVC production would be sourced and priced."},
+    {"vendor": "MediaMetric Partners", "question": "Please provide a project timeline with milestones from appointment to go-live."},
+    {"vendor": "Launchpad Integrated", "question": "Please provide a firm, itemised total with GST clarity rather than indicative ranges."},
+    {"vendor": "Launchpad Integrated", "question": "Please substantiate the '10M+ organic reach' guarantee with methodology, and detail your ASCI compliance process."}
+  ]
+}

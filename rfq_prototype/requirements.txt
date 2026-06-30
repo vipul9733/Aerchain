@@ -1,0 +1,7 @@
+streamlit>=1.30
+anthropic>=0.39
+# Optional — only if you set LLM_PROVIDER=openai
+openai>=1.40
+# Optional — only needed to parse uploaded PDF/DOCX vendor files
+pypdf>=4.0
+python-docx>=1.1

@@ -1,0 +1,106 @@
+{
+  "rfq_id": "RFQ-2026-MKT-014",
+  "title": "Integrated Marketing Services — 'MorningStars' Kids' Cereal National Launch (India)",
+  "issuing_entity": "Nutriva Foods India Pvt. Ltd.",
+  "general_information": {
+    "background": "Nutriva Foods is launching 'MorningStars', a new fortified kids' breakfast cereal, into the Indian market in Q3 2026. This is a flagship national launch with significant above-the-line and digital investment. We are seeking a lead agency (or consortium) to deliver integrated strategy, creative, production, and media services.",
+    "objective": "Appoint a vendor to deliver an end-to-end launch campaign that builds awareness among parents and appeal among children aged 4–9, while remaining fully compliant with Indian advertising standards for food and children's advertising.",
+    "response_due_date": "2026-07-25",
+    "currency": "INR",
+    "contact": "Priya Nair, Category Procurement Lead — procurement@nutrivafoods.example"
+  },
+  "timelines": [
+    {"milestone": "RFQ issued", "date": "2026-07-01"},
+    {"milestone": "Vendor questions deadline", "date": "2026-07-10"},
+    {"milestone": "Proposal submission deadline", "date": "2026-07-25"},
+    {"milestone": "Shortlist & pitch presentations", "date": "2026-08-05"},
+    {"milestone": "Vendor appointment", "date": "2026-08-15"},
+    {"milestone": "Campaign go-live", "date": "2026-09-22"}
+  ],
+  "line_items": [
+    {
+      "id": 1,
+      "name": "Strategy and creative development",
+      "scope": "Brand positioning, launch communication strategy, big creative idea, key visual, and master messaging framework for parents and kids audiences.",
+      "deliverables": ["Communication strategy deck", "Creative platform / big idea", "Master key visual", "Messaging matrix by audience"],
+      "requested_unit": "Fixed project fee"
+    },
+    {
+      "id": 2,
+      "name": "TVC development",
+      "scope": "Concepting and pre-production of one 30-second hero TVC plus two 10-second cutdowns, including scripts, storyboards, and director's treatment.",
+      "deliverables": ["3 script routes", "Storyboards", "Director's treatment", "Final approved script"],
+      "requested_unit": "Fixed project fee"
+    },
+    {
+      "id": 3,
+      "name": "TVC production",
+      "scope": "Full production of the approved hero TVC and cutdowns, including shoot, talent (incl. child artists), post-production, and delivery in broadcast and digital formats.",
+      "deliverables": ["Hero 30s TVC (broadcast + digital masters)", "2x 10s cutdowns", "Compliance-cleared final files"],
+      "requested_unit": "Fixed project fee, itemised"
+    },
+    {
+      "id": 4,
+      "name": "Social organic content",
+      "scope": "Always-on organic content for Instagram, YouTube, and Facebook for the first 3 months post-launch — content calendar, asset creation, and community management.",
+      "deliverables": ["3-month content calendar", "Monthly asset packs", "Community management SLA"],
+      "requested_unit": "Monthly retainer"
+    },
+    {
+      "id": 5,
+      "name": "Social paid media planning",
+      "scope": "Paid social and digital media strategy and plan across Meta, YouTube, and programmatic, with audience targeting, channel mix, and forecasted reach/frequency.",
+      "deliverables": ["Media plan", "Targeting & channel mix rationale", "Reach/frequency forecast"],
+      "requested_unit": "Fixed planning fee"
+    },
+    {
+      "id": 6,
+      "name": "Social paid media buying and optimization",
+      "scope": "Execution, buying, and ongoing optimization of the paid media plan for the first 3 months, including weekly reporting and budget pacing.",
+      "deliverables": ["Campaign setup", "Weekly optimization & reporting", "End-of-flight performance report"],
+      "requested_unit": "% of media spend OR fixed management fee (state clearly)"
+    },
+    {
+      "id": 7,
+      "name": "Kids advertising and claims compliance review",
+      "scope": "Independent review of all creative and claims for compliance with ASCI guidelines on advertising to children and food/nutrition claims, including documented sign-off.",
+      "deliverables": ["Compliance review report per asset", "Claims substantiation checklist", "Documented sign-off"],
+      "requested_unit": "Fixed fee"
+    },
+    {
+      "id": 8,
+      "name": "Launch program management",
+      "scope": "End-to-end program management across all workstreams — timeline, stakeholder coordination, status reporting, and risk management through to go-live.",
+      "deliverables": ["Master project plan", "Weekly status reports", "Risk register", "Launch readiness sign-off"],
+      "requested_unit": "Fixed fee or monthly retainer"
+    }
+  ],
+  "commercial_expectations": {
+    "pricing_format": "Vendors must provide a per-line-item price breakdown in INR. Lump-sum-only bids without itemisation may be marked non-compliant.",
+    "tax_clarity": "All prices must explicitly state whether GST (18%) is included or excluded. Ambiguity on tax will be treated as a gap.",
+    "payment_terms": "Buyer's standard terms are 30/40/30 (mobilisation / mid-milestone / on delivery). Vendors may propose alternatives with justification.",
+    "must_be_inclusive_of": ["Agency service fees", "Standard revisions (up to 2 rounds per deliverable)", "Project management overhead"]
+  },
+  "vendor_questionnaire": [
+    "Describe your relevant experience launching food or kids' products in India in the last 3 years, with named examples.",
+    "Who are the named team members and what is their relevant experience?",
+    "What is your process for ensuring ASCI compliance for advertising directed at children?",
+    "How do you substantiate nutrition/health claims used in creative?",
+    "State your assumptions regarding client-provided assets, approvals, and turnaround times.",
+    "State explicitly what is excluded from your pricing (e.g. media spend, talent, licensing).",
+    "What is your proposed timeline from appointment to go-live, with key milestones?"
+  ],
+  "compliance_requirements": [
+    {"area": "Children's advertising", "requirement": "All creative directed at children must comply with ASCI Guidelines for Advertising to Children, including no encouragement of excessive consumption and no undermining of healthy lifestyles."},
+    {"area": "Food & nutrition claims", "requirement": "All health/nutrition claims must be substantiated and compliant with FSSAI advertising and claims regulations; vendor must document substantiation."},
+    {"area": "Child artists", "requirement": "Any production using child artists must comply with applicable child labour and welfare regulations for shoots."},
+    {"area": "Data & privacy", "requirement": "Any data collection in digital campaigns targeting families must comply with applicable Indian data protection requirements."}
+  ],
+  "evaluation_criteria": [
+    {"criterion": "Strategic & creative quality", "weight_percent": 30},
+    {"criterion": "Commercial competitiveness & clarity", "weight_percent": 25},
+    {"criterion": "Compliance rigour (kids / claims)", "weight_percent": 20},
+    {"criterion": "Relevant experience & team", "weight_percent": 15},
+    {"criterion": "Timeline & delivery confidence", "weight_percent": 10}
+  ]
+}
