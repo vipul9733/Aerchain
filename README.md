@@ -15,9 +15,7 @@ pip install -r requirements.txt
 # 2. (Optional) set a key to enable LIVE generation/extraction/comparison.
 #    Without a key, the app runs fully on shipped sample data.
 export ANTHROPIC_API_KEY=sk-...            # default provider
-#   or:
-export LLM_PROVIDER=openai
-export OPENAI_API_KEY=sk-...
+
 
 # 3. Run
 streamlit run app.py
@@ -71,7 +69,7 @@ WRITEUP.md                 1–2 page product & prompt-architecture write-up
 | Env var | Default | Notes |
 |---|---|---|
 | `LLM_PROVIDER` | `anthropic` | or `openai` |
-| `ANTHROPIC_API_KEY` / `OPENAI_API_KEY` | — | required only for live runs |
+| `ANTHROPIC_API_KEY` /  | — | required only for live runs |
 | `LLM_MODEL` | provider default | override the model |
 
 ## Assumptions
