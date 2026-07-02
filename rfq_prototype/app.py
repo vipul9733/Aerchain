@@ -1,17 +1,3 @@
-"""
-RFQ Procurement Intelligence — buyer-facing prototype.
-
-Five screens:
-  1. RFQ Overview
-  2. Vendor Upload / Input
-  3. Extraction Review
-  4. Vendor Comparison
-  5. Prompt Trace
-
-Runs on shipped sample data by default (instant demo). Every screen can also
-regenerate live if an LLM API key is configured.
-"""
-
 from __future__ import annotations
 
 import json
