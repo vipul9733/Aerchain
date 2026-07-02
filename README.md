@@ -68,7 +68,7 @@ WRITEUP.md                 1–2 page product & prompt-architecture write-up
 
 | Env var | Default | Notes |
 |---|---|---|
-| `LLM_PROVIDER` | `anthropic` | or `openai` |
+| `LLM_PROVIDER` | `anthropic` |
 | `ANTHROPIC_API_KEY` /  | — | required only for live runs |
 | `LLM_MODEL` | provider default | override the model |
 
