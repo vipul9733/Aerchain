@@ -88,12 +88,12 @@ ss = st.session_state
 # ---------------------------------------------------------------------------
 with st.sidebar:
     st.markdown('<div class="eyebrow">Connection</div>', unsafe_allow_html=True)
-    provider = st.selectbox("Provider", ["anthropic", "openai"], index=0)
+    provider = st.selectbox("Provider", ["anthropic"], index=0)
     key_in = st.text_input(
         "API key",
         type="password",
         value=ss.get("api_key", ""),
-        placeholder="sk-ant-…  (Claude)  or  sk-…  (OpenAI)",
+        placeholder="sk-ant-…  (Claude)",
         help="Pasted here it stays in this session only. Leave empty to browse the generated sample data.",
     )
     model_in = st.text_input("Model (optional)", value=ss.get("model_override", ""),
